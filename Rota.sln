@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rota.Domain", "Rota.Domain\Rota.Domain.csproj", "{F356110E-1B38-4DFC-8998-E3AEB97D4006}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rota.Application", "Rota.Application\Rota.Application.csproj", "{3A08FE3A-BA5A-478E-8AB9-924F62419C0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rota.Infra.Data", "Rota.Infra.Data\Rota.Infra.Data.csproj", "{2CBC68EA-F212-4387-9563-A0E7CDD343ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rota.Infra.IoC", "Rota.Infra.IoC\Rota.Infra.IoC.csproj", "{889A5581-4120-49CA-BB5A-144DA87078B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rota.API", "Rota.API\Rota.API.csproj", "{2B84F10D-410E-4B79-8C3A-3C0819333763}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F356110E-1B38-4DFC-8998-E3AEB97D4006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F356110E-1B38-4DFC-8998-E3AEB97D4006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F356110E-1B38-4DFC-8998-E3AEB97D4006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F356110E-1B38-4DFC-8998-E3AEB97D4006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A08FE3A-BA5A-478E-8AB9-924F62419C0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A08FE3A-BA5A-478E-8AB9-924F62419C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A08FE3A-BA5A-478E-8AB9-924F62419C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A08FE3A-BA5A-478E-8AB9-924F62419C0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CBC68EA-F212-4387-9563-A0E7CDD343ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CBC68EA-F212-4387-9563-A0E7CDD343ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CBC68EA-F212-4387-9563-A0E7CDD343ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CBC68EA-F212-4387-9563-A0E7CDD343ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{889A5581-4120-49CA-BB5A-144DA87078B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{889A5581-4120-49CA-BB5A-144DA87078B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{889A5581-4120-49CA-BB5A-144DA87078B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{889A5581-4120-49CA-BB5A-144DA87078B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B132143-40C4-41F3-893D-B3F1FB6B4F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B132143-40C4-41F3-893D-B3F1FB6B4F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B132143-40C4-41F3-893D-B3F1FB6B4F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B132143-40C4-41F3-893D-B3F1FB6B4F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B84F10D-410E-4B79-8C3A-3C0819333763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B84F10D-410E-4B79-8C3A-3C0819333763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B84F10D-410E-4B79-8C3A-3C0819333763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B84F10D-410E-4B79-8C3A-3C0819333763}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

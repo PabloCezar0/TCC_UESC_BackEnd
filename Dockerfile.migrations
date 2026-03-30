@@ -1,0 +1,19 @@
+FROM mcr.microsoft.com/dotnet/sdk:8.0
+
+WORKDIR /src
+
+# Instalar netcat para esperar o banco
+RUN apt-get update && apt-get install -y netcat-openbsd && rm -rf /var/lib/apt/lists/*
+
+# Copiar o código da aplicação (necessário para rodar migrations)
+COPY . .
+
+# Instalar dotnet-ef globalmente (pode ser feito no entrypoint também)
+RUN dotnet tool install --global dotnet-ef --version 8.0.11
+ENV PATH="$PATH:/root/.dotnet/tools"
+
+# Copiar script de migrations
+COPY migrations.sh /src/migrations.sh
+RUN chmod +x /src/migrations.sh
+
+ENTRYPOINT ["/bin/bash", "/src/migrations.sh"]

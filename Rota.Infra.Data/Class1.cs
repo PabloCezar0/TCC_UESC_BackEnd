@@ -1,0 +1,6 @@
+﻿namespace Rota.Infra.Data;
+
+public class Class1
+{
+
+}
